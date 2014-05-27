@@ -13,15 +13,15 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = ClientSideValidations::Turbolinks::VERSION
 
-  gem.add_dependency 'client_side_validations', '~> 3.2.0'
-  gem.add_dependency 'turbolinks', '~> 1.1.1'
+  gem.add_dependency 'client_side_validations'
+  gem.add_dependency 'turbolinks'
 
-  gem.add_development_dependency 'rails', '~> 3.2.0'
+  gem.add_development_dependency 'rails'
   gem.add_development_dependency 'mocha'
   gem.add_development_dependency 'm'
 
   # For QUnit testing
-  gem.add_development_dependency 'sinatra', '~> 1.0'
+  gem.add_development_dependency 'sinatra'
   gem.add_development_dependency 'shotgun'
   gem.add_development_dependency 'thin'
   gem.add_development_dependency 'json'
